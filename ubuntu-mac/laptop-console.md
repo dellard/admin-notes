@@ -73,7 +73,17 @@ Notes:
 ## Useful utilities
 
  * battery
+
+   The `battery` script gives you a commandline way to
+   check the charge level of your battery (as a percentage
+   of the maximum).  This script may need per-system tweaking
+   because the name of the battery device varies from system
+   to system.
+
  * brightness
 
-
+   The default brightness for many mac laptops is battery-drainingly high.
+   It's really quite impressive, but unless you're programming at the beach,
+   probably not what you want.  The `brightness` script gives you a way
+   to change the brightness from the commandline.
 
